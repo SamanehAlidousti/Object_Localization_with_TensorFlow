@@ -1,6 +1,21 @@
 # Object Localization with TensorFlow
+This project demonstrates object localization using TensorFlow. It includes a Convolutional Neural Network (CNN) for classifying and localizing emojis in images.
 
-All emojis designed by [OpenMoji](https://openmoji.org/) – the open-source emoji and icon project. License: CC BY-SA 4.0
+## Prerequisites
+
+- Python 3.x
+- TensorFlow 2.x
+- PIL
+- Matplotlib
+
+## Download and Visualize Data
+
+Download emoji images for training from [OpenMoji](https://github.com/hfg-gmuend/openmoji/releases/latest/download/openmoji-72x72-color.zip). Extract the zip file into the 'emojis' directory.
+
+```bash
+!wget https://github.com/hfg-gmuend/openmoji/releases/latest/download/openmoji-72x72-color.zip
+!mkdir emojis
+!unzip -q openmoji-72x72-color.zip -d ./emojis
 
 ## Overview
 This notebook demonstrates object localization using TensorFlow. It includes the following steps:
