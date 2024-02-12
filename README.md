@@ -16,6 +16,9 @@ Download emoji images for training from [OpenMoji](https://github.com/hfg-gmuend
 !wget https://github.com/hfg-gmuend/openmoji/releases/latest/download/openmoji-72x72-color.zip
 !mkdir emojis
 !unzip -q openmoji-72x72-color.zip -d ./emojis
+```
+
+
 
 ## Overview
 This notebook demonstrates object localization using TensorFlow. It includes the following steps:
@@ -36,11 +39,6 @@ This notebook demonstrates object localization using TensorFlow. It includes the
 4. The notebook includes data generation, model creation, and training.
 5. The `test_model` function visualizes the model's predictions on sample images after training.
 
-## Dependencies
-- TensorFlow 2.3
-- Numpy
-- Matplotlib
-- PIL
 
 ## How to Run
 1. Open the notebook in Google Colab.
